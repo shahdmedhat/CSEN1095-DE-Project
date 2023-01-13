@@ -7,7 +7,7 @@ def get_week_number(date, year):
   end_date = datetime.datetime(year, 12, 31)
   delta = end_date - date
   if(delta != 0):
-    week = 52 - delta.days // 7 + 1
+    week = 52 - delta.days
   return int(week)
 
 def discretize(df):
