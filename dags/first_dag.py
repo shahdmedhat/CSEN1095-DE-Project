@@ -8,7 +8,7 @@ import os
 
 from scripts.missingValues import handleMissingValues
 from scripts.outliers import handleOutliers
-from scripts.duplicates import handleDuplicates
+# from scripts.duplicates import handleDuplicates
 from scripts.encoding import labelEncoding
 from scripts.discretization import discretize
 from scripts.normalization import normalize
